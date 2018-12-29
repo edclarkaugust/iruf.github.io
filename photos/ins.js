@@ -117,7 +117,7 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           var minSrc = 'http://qiniu.com/ins-min/' + data.link[i] + '.min.jpg';
-          var src = 'http://qiniu.com/ins/' + data.link[i];
+          var src = 'http://i2.tiimg.com/1949/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
