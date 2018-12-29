@@ -117,11 +117,11 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           // var minSrc = 'http://qiniu.com/ins-min/' + data.link[i] + '.min.jpg';
-          var minSrc = 'http://i2.tiimg.com/1949/' + data.link[i] + '.jpg';
-          var src = 'http://i2.tiimg.com/1949/' + data.link[i];
+          var minSrc = 'http://pkh8tndih.bkt.clouddn.com/image/shots/' + data.link[i] + '.jpg?imageView2/1/w/190/h/190/interlace/1/q/75';
+          var src = 'http://pkh8tndih.bkt.clouddn.com/image/shots/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
-          src += '.jpg';
+          src += '.jpg?imageView2/1/w/860/h/860/interlace/1/q/75';
 
           liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
                 <a href="' + src + '" itemprop="contentUrl" data-size="640x640" data-type="' + type + '" data-target="' + target + '">\
