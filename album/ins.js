@@ -117,8 +117,8 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           // var minSrc = 'http://qiniu.com/ins-min/' + data.link[i] + '.min.jpg';
-          var minSrc = 'http://pkh8tndih.bkt.clouddn.com/image/shots/' + data.link[i] + '.jpg?imageView2/1/w/190/h/190/interlace/1/q/75';
-          var src = 'http://pkh8tndih.bkt.clouddn.com/image/shots/' + data.link[i];
+          var minSrc = 'http://img.cdn.jsfun.club/image/shots/' + data.link[i] + '.jpg?imageView2/1/w/190/h/190/interlace/1/q/75';
+          var src = 'http://img.cdn.jsfun.club/image/shots/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg?imageView2/1/w/860/h/860/interlace/1/q/75';
